@@ -1,4 +1,4 @@
-update=Wed 30 Aug 2017 10:49:10 PM CDT
+update=Wed 30 Aug 2017 10:59:37 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../lib/SeeedOPL for Kicad-alpha-2017-01-02
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,17 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016
+LibName31=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016
+LibName32=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Crystal Oscillator-2016
+LibName33=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Diode-2016
+LibName34=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Display-2016
+LibName35=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Fuse-2016
+LibName36=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-IC-2016
+LibName37=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Inductor-2016
+LibName38=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016
+LibName39=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Relay-2016
+LibName40=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016
+LibName41=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Sensor-2016
+LibName42=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
+LibName43=/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016
