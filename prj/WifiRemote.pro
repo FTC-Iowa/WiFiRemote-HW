@@ -1,4 +1,4 @@
-update=Wed 30 Aug 2017 11:07:09 PM CDT
+update=9/1/2017 9:11:07 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../lib/SeeedOPL for Kicad-alpha-2017-01-02
+LibDir=../lib/SeeedOPL for Kicad-alpha-2017-01-02;../lib/SeeedOPL for Kicad-alpha-2017-06
 [eeschema/libraries]
 LibName1=power
 LibName2=device
