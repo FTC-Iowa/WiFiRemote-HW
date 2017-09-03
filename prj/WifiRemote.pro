@@ -1,4 +1,4 @@
-update=9/1/2017 9:11:07 PM
+update=9/2/2017 5:24:17 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../lib/SeeedOPL for Kicad-alpha-2017-01-02;../lib/SeeedOPL for Kicad-alpha-2017-06
+LibDir=../lib/SeeedOPL for Kicad-alpha-2017-01-02;../lib/SeeedOPL for Kicad-alpha-2017-06;../lib/ICEE_Kicad_Library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -72,3 +72,6 @@ LibName40=SeeedOPL-Resistor-2016
 LibName41=SeeedOPL-Sensor-2016
 LibName42=SeeedOPL-Switch-2016
 LibName43=SeeedOPL-Transistor-2016
+LibName44=ICEE-Resistor
+LibName45=ICEE-Inductor
+LibName46=ICEE-Capacitor
