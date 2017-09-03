@@ -1,4 +1,4 @@
-update=9/2/2017 5:24:17 PM
+update=9/3/2017 3:59:29 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -75,3 +75,4 @@ LibName43=SeeedOPL-Transistor-2016
 LibName44=ICEE-Resistor
 LibName45=ICEE-Inductor
 LibName46=ICEE-Capacitor
+LibName47=ICEE-IC
