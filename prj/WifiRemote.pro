@@ -1,4 +1,4 @@
-update=9/3/2017 3:59:29 PM
+update=Fri 08 Sep 2017 11:47:18 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -76,3 +76,4 @@ LibName44=ICEE-Resistor
 LibName45=ICEE-Inductor
 LibName46=ICEE-Capacitor
 LibName47=ICEE-IC
+LibName48=ICEE-Regulator
