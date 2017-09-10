@@ -1,4 +1,4 @@
-update=9/9/2017 3:11:52 PM
+update=Sun 10 Sep 2017 11:02:17 AM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -78,3 +78,13 @@ LibName46=ICEE-Capacitor
 LibName47=ICEE-IC
 LibName48=ICEE-Regulator
 LibName49=ICEE-Diode
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
