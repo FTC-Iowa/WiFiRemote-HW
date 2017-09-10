@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMD-Diode-TVS-3.3VMW-15V-SOD-523
+D DIODE, TVS, ESD, 3.3V, UNI
+K DIODE, TVS, ESD, 3.3V, UNI, 
+$ENDCMP
+#
+#End Doc Library
