@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Andy\Documents\Work\ICEE\WiFiRemote-HW\prj\WifiRemote.sch)
-    (date "9/14/2017 8:26:25 PM")
+    (source C:/Users/Andy/Documents/Work/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
+    (date "9/14/2017 9:26:43 PM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -458,10 +458,8 @@
       (value CONTROLLER-ESP8266)
       (footprint ICEE-IC:ESP-12F_SMT_22PIN)
       (fields
-        (field (name SKU) 310060021)
-        (field (name "PART NUMBER") ESP-12E)
-        (field (name SUPPLIER) ITEAD)
-        (field (name "SUPPLIER PART") ESP-12E))
+        (field (name SKU) 317060163)
+        (field (name "PART NUMBER") ESP-12F))
       (libsource (lib WifiRemote-cache) (part CONTROLLER-ESP8266))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B5DE10))
@@ -478,6 +476,7 @@
       (tstamp 59B5F322))
     (comp (ref R10)
       (value SMD-RES-20K-1%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603FR-0720KL)
         (field (name SKU) 301010288)
@@ -487,6 +486,7 @@
       (tstamp 59B89A66))
     (comp (ref R1)
       (value SMD-RES-51K-5%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603JR-0751KL)
         (field (name SKU) 301010145)
@@ -496,6 +496,7 @@
       (tstamp 59B89F76))
     (comp (ref D3)
       (value SMD-LED-CLEAR-RED_0805_)
+      (footprint SeeedOPL-LED-2016:LED-0805)
       (fields
         (field (name MPN) 17-215SURC_S530-A2_TR8)
         (field (name SKU) 304090046))
@@ -525,6 +526,7 @@
       (tstamp 59B96847))
     (comp (ref Q1)
       (value SMD-MOSFET-P-CH-20V-2A-FDN340P_SOT-23_)
+      (footprint SeeedOPL-Transistor-2016:SOT-23)
       (fields
         (field (name MPN) FDN340P)
         (field (name SKU) 305030026))
@@ -533,6 +535,7 @@
       (tstamp 59BBF852))
     (comp (ref R30)
       (value SMD-RES-200R-5%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603JR-07200RL)
         (field (name SKU) 301010218)
@@ -542,6 +545,7 @@
       (tstamp 59BD2EE9))
     (comp (ref C9)
       (value CERAMIC-100NF-50V-10%-X7R_0603_)
+      (footprint SeeedOPL-Capacitor-2016:C0603)
       (fields
         (field (name MPN) CC0603KRX7R9BB104)
         (field (name SKU) 302010138)
@@ -563,6 +567,7 @@
       (tstamp 59BFCBDB))
     (comp (ref C8)
       (value CERAMIC-100NF-50V-10%-X7R_0603_)
+      (footprint SeeedOPL-Capacitor-2016:C0603)
       (fields
         (field (name MPN) CC0603KRX7R9BB104)
         (field (name SKU) 302010138)
@@ -573,6 +578,7 @@
       (tstamp 59BFCBE4))
     (comp (ref R29)
       (value SMD-RES-200R-5%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603JR-07200RL)
         (field (name SKU) 301010218)
@@ -593,6 +599,7 @@
       (tstamp 59BFE94D))
     (comp (ref C7)
       (value CERAMIC-100NF-50V-10%-X7R_0603_)
+      (footprint SeeedOPL-Capacitor-2016:C0603)
       (fields
         (field (name MPN) CC0603KRX7R9BB104)
         (field (name SKU) 302010138)
@@ -603,6 +610,7 @@
       (tstamp 59BFE956))
     (comp (ref R28)
       (value SMD-RES-200R-5%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603JR-07200RL)
         (field (name SKU) 301010218)
@@ -623,6 +631,7 @@
       (tstamp 59C02DDD))
     (comp (ref C6)
       (value CERAMIC-100NF-50V-10%-X7R_0603_)
+      (footprint SeeedOPL-Capacitor-2016:C0603)
       (fields
         (field (name MPN) CC0603KRX7R9BB104)
         (field (name SKU) 302010138)
@@ -633,6 +642,7 @@
       (tstamp 59C02DE6))
     (comp (ref R27)
       (value SMD-RES-200R-5%-1_10W_0603_)
+      (footprint SeeedOPL-Resistor-2016:R0603)
       (fields
         (field (name MPN) RC0603JR-07200RL)
         (field (name SKU) 301010218)
