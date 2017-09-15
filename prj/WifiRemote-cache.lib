@@ -399,13 +399,15 @@ ENDDEF
 #
 # Mechanical_Mount
 #
-DEF Mechanical_Mount M 0 40 N N 1 L N
+DEF Mechanical_Mount M 0 40 N N 1 F N
 F0 "M" -100 75 45 H V L BNN
 F1 "Mechanical_Mount" 50 -100 45 H V L BNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
- *C1206*
+ *mount*
+ *panhead*
+ *mechanical*
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 0 N
