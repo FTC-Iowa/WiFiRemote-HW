@@ -15,5 +15,5 @@
   (lib (name SeeedOPL-Transistor-2016)(type KiCad)(uri "${KIPRJMOD}/../lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016.pretty")(options "")(descr ""))
   (lib (name ICEE-IC)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-IC.pretty)(options "")(descr ""))
   (lib (name ICEE-Mechanical)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-Mechanical.pretty)(options "")(descr ""))
-  (lib (name ICEE-Diode)(type KiCad)(uri C:/Users/Andy/Documents/Work/ICEE/WiFiRemote-HW/lib/ICEE_Kicad_Library/ICEE-Diode.pretty)(options "")(descr ""))
+  (lib (name ICEE-Diode)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-Diode.pretty)(options "")(descr ""))
 )
