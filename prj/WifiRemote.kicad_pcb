@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 129)
     (no_connects 0)
-    (area 49.949999 74.949999 90.050001 150.050001)
+    (area 39.371833 61.722499 102.152167 165.6432)
     (thickness 1.6)
     (drawings 4)
     (tracks 471)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.254)
     (user_trace_width 0.3)
@@ -345,7 +345,7 @@
     (fp_line (start 2.159 4.19862) (end 1.4986 4.19862) (layer F.SilkS) (width 0.127))
     (fp_line (start -2.159 -4.09956) (end -1.4986 -4.09956) (layer F.SilkS) (width 0.127))
     (fp_line (start 2.159 -4.09956) (end 1.4986 -4.09956) (layer F.SilkS) (width 0.127))
-    (fp_text user "slot drills with copper" (at 3.384 -8.3412 540) (layer F.SilkS)
+    (fp_text user "slot drills with copper" (at 3.9243 -8.3412 540) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
     )
     (pad A thru_hole circle (at 0 -2.032 270) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Paste *.Mask)
@@ -366,7 +366,7 @@
     (tags 0603)
     (path /59B3891F)
     (attr smd)
-    (fp_text reference C1 (at 1.9535 0.0808 540) (layer F.SilkS)
+    (fp_text reference C1 (at 1.4328 -1.5448 540) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value CERAMIC-4.7UF-10V-10%-X5R_0603_ (at -1.27 0.635 360) (layer F.SilkS) hide
@@ -392,7 +392,7 @@
     (tags 0805)
     (path /59B38DFA)
     (attr smd)
-    (fp_text reference C3 (at 0 2.794 360) (layer F.SilkS)
+    (fp_text reference C3 (at 0 2.6878 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value CERAMIC-22UF-6.3V-20%-X5R_0805_ (at -1.8415 0 180) (layer F.SilkS) hide
@@ -418,7 +418,7 @@
     (tags 0603)
     (path /59B9EC84)
     (attr smd)
-    (fp_text reference C5 (at 0.079 -2.1994) (layer F.SilkS)
+    (fp_text reference C5 (at -1.603 -1.255) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value CERAMIC-1UF-25V-10%-X7R_0603_ (at -1.27 0.635 90) (layer F.SilkS) hide
@@ -798,7 +798,7 @@
     (at 58.7376 87.9986 90)
     (path /59B99E74)
     (attr smd)
-    (fp_text reference R3 (at -1.2514 -0.2376 180) (layer F.SilkS)
+    (fp_text reference R3 (at 0.1016 -3.2766 180) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-10K-5%-1_10W_0603_ (at 1.11506 -0.29972 180) (layer F.SilkS) hide
@@ -918,7 +918,7 @@
     (at 70.9342 125.3262 270)
     (path /59B3FD48)
     (attr smd)
-    (fp_text reference R9 (at 0.0104 -2.3957 360) (layer F.SilkS)
+    (fp_text reference R9 (at 0.0358 -2.3068 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-10K-1%-1_10W_0603_ (at 1.11506 -0.29972 360) (layer F.SilkS) hide
@@ -1058,7 +1058,7 @@
     (at 81.5 92 270)
     (path /59ACBAEB)
     (attr smd)
-    (fp_text reference R16 (at -1.25 0 360) (layer F.SilkS)
+    (fp_text reference R16 (at 5.422 -0.504 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-10K-5%-1_10W_0603_ (at 1.11506 -0.29972 360) (layer F.SilkS) hide
@@ -1078,7 +1078,7 @@
     (at 87.25 88 270)
     (path /59BA7C2D)
     (attr smd)
-    (fp_text reference R17 (at -1.754 -0.0372 360) (layer F.SilkS)
+    (fp_text reference R17 (at -1.246 -0.0372 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-0R-5%-1_10W_0603_ (at 1.11506 -0.29972 360) (layer F.SilkS) hide
@@ -1118,7 +1118,7 @@
     (at 81.5 94 90)
     (path /59ACBB51)
     (attr smd)
-    (fp_text reference R19 (at 0.5 2.75 360) (layer F.SilkS)
+    (fp_text reference R19 (at -4.565 0.504 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-10K-5%-1_10W_0603_ (at 1.11506 -0.29972 180) (layer F.SilkS) hide
@@ -1138,7 +1138,7 @@
     (at 81.488 96 90)
     (path /59ACB976)
     (attr smd)
-    (fp_text reference R20 (at -1.25 0.262 360) (layer F.SilkS)
+    (fp_text reference R20 (at -3.708 0.516 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-10K-5%-1_10W_0603_ (at 1.11506 -0.29972 180) (layer F.SilkS) hide
@@ -1158,7 +1158,7 @@
     (at 64.75 128.25 180)
     (path /59B5CB86)
     (attr smd)
-    (fp_text reference R21 (at -1.5 -0.5 270) (layer F.SilkS)
+    (fp_text reference R21 (at -1.379 0.094 270) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-RES-0R-5%-1_10W_0603_ (at 1.11506 -0.29972 270) (layer F.SilkS) hide
@@ -1260,7 +1260,7 @@
     (tags "SSOP 0.65")
     (path /59B5F322)
     (attr smd)
-    (fp_text reference U2 (at 4.112 -2.96 180) (layer F.SilkS)
+    (fp_text reference U2 (at 4.4722 -2.7418 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BOOST-MCP1642B-ADJI/MC-MSOP8 (at 0 2.6 180) (layer F.Fab) hide
@@ -1306,7 +1306,7 @@
     (tags 0805)
     (path /59B39145)
     (attr smd)
-    (fp_text reference C2 (at 0 2.794 360) (layer F.SilkS)
+    (fp_text reference C2 (at 0 2.6878 360) (layer F.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value CERAMIC-22UF-6.3V-20%-X5R_0805_ (at -1.8415 0 180) (layer F.SilkS) hide
@@ -1797,7 +1797,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm (layer F.Cu) (tedit 59C1DD42) (tstamp 59C1DFE2)
     (at 56.46684 112.14892)
     (path /59C34B45)
-    (fp_text reference M1 (at -5.461 4.953) (layer F.SilkS)
+    (fp_text reference M1 (at -4.05384 3.94208) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1813,7 +1813,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm (layer F.Cu) (tedit 59C1DD42) (tstamp 59C1DFE6)
     (at 84.036 112.408)
     (path /59C35BEC)
-    (fp_text reference M2 (at -5.461 4.953) (layer F.SilkS)
+    (fp_text reference M2 (at 3.429 4.445) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1829,7 +1829,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm (layer F.Cu) (tedit 59C1E0BD) (tstamp 59C1DFEA)
     (at 56.223 142.38)
     (path /59C35CD4)
-    (fp_text reference M3 (at -3.71348 5.01396) (layer F.SilkS)
+    (fp_text reference M3 (at -3.71348 4.191) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1845,7 +1845,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm (layer F.Cu) (tedit 59C1DD42) (tstamp 59C1DFEE)
     (at 84.163 142.126)
     (path /59C35DC5)
-    (fp_text reference M4 (at -5.461 4.953) (layer F.SilkS)
+    (fp_text reference M4 (at 3.429 4.318) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1901,19 +1901,19 @@
     )
   )
 
-  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C351DC) (tstamp 59C3526C)
+  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C42E68) (tstamp 59C3526C)
     (at 86.5 133.5 270)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59C35F11)
     (attr smd)
     (fp_text reference D10 (at 2.75 0 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-Diode-TVS-3.3VMW-15V-SOD-523 (at 0 1.4 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 2.75 0 270) (layer F.Fab)
+    (fp_text user %R (at 2.75 0 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end -1.15 0.6) (layer F.SilkS) (width 0.12))
@@ -1944,19 +1944,19 @@
     )
   )
 
-  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C351E2) (tstamp 59C35283)
+  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C42E73) (tstamp 59C35283)
     (at 86.5 130 90)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59C36ECC)
     (attr smd)
-    (fp_text reference D12 (at 2.75 0.05 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference D12 (at 2.75 0.05 90) (layer F.SilkS)
+      (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-Diode-TVS-3.3VMW-15V-SOD-523 (at 0 1.4 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 2.75 0.05 270) (layer F.Fab)
+    (fp_text user %R (at 2.75 0.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end -1.15 0.6) (layer F.SilkS) (width 0.12))
@@ -1987,19 +1987,19 @@
     )
   )
 
-  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C351F4) (tstamp 59C3529A)
+  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C42E4C) (tstamp 59C3529A)
     (at 53.5 133.5 270)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59C37B89)
     (attr smd)
-    (fp_text reference D13 (at 0 1.25 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference D13 (at 2.784 -0.056 270) (layer F.SilkS)
+      (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-Diode-TVS-3.3VMW-15V-SOD-523 (at 0 1.4 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 1.25 270) (layer F.Fab)
+    (fp_text user %R (at 0 1.25 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end -1.15 0.6) (layer F.SilkS) (width 0.12))
@@ -2030,19 +2030,19 @@
     )
   )
 
-  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C351EB) (tstamp 59C352B1)
+  (module ICEE-Diode:SOD-523 (layer F.Cu) (tedit 59C42E5A) (tstamp 59C352B1)
     (at 53.5 130 90)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59C38035)
     (attr smd)
-    (fp_text reference D14 (at 0 -1.3 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference D14 (at 2.733 0.056 90) (layer F.SilkS)
+      (effects (font (size 0.889 0.889) (thickness 0.1016)))
     )
     (fp_text value SMD-Diode-TVS-3.3VMW-15V-SOD-523 (at 0 1.4 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.3 90) (layer F.Fab)
+    (fp_text user %R (at 0 -1.3 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end -1.15 0.6) (layer F.SilkS) (width 0.12))
