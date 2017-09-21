@@ -327,15 +327,15 @@ F 6 "10K" V 4325 3875 40  0000 C CNN "RESISTANCE"
 $EndComp
 Text GLabel 6700 1400 2    39   Input ~ 0
 ESP_ADC
-Text GLabel 5675 3975 2    39   Input ~ 0
+Text GLabel 1325 3975 0    39   Input ~ 0
 GPIO4
 Text GLabel 2075 4225 0    39   Input ~ 0
 GPIO5
-Text GLabel 1325 3975 0    39   Input ~ 0
-GPIO12
-Text GLabel 2950 4475 0    39   Input ~ 0
-GPIO13
 Text GLabel 3750 4725 0    39   Input ~ 0
+GPIO12
+Text GLabel 5675 3975 2    39   Input ~ 0
+GPIO13
+Text GLabel 2950 4475 0    39   Input ~ 0
 GPIO14
 $Comp
 L SMD-DIODE-SWITCH-1N4148_LL-34_ D9
@@ -1741,39 +1741,6 @@ Connection ~ 4275 3625
 Wire Wire Line
 	4675 3975 1775 3975
 $Comp
-L Mechanical_Mount M1
-U 1 1 59BB9484
-P 7250 5800
-F 0 "M1" H 7150 5875 45  0000 L BNN
-F 1 "Mechanical_Mount" H 7050 5600 45  0001 L BNN
-F 2 "ICEE-Mechanical:mounting_panhead6_5mm" H 7250 5800 60  0001 C CNN
-F 3 "" H 7250 5800 60  0001 C CNN
-	1    7250 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical_Mount M2
-U 1 1 59BB9AA5
-P 7475 5800
-F 0 "M2" H 7375 5875 45  0000 L BNN
-F 1 "Mechanical_Mount" H 7275 5600 45  0001 L BNN
-F 2 "ICEE-Mechanical:mounting_panhead6_5mm" H 7475 5800 60  0001 C CNN
-F 3 "" H 7475 5800 60  0001 C CNN
-	1    7475 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical_Mount M3
-U 1 1 59BB9B95
-P 7700 5800
-F 0 "M3" H 7600 5875 45  0000 L BNN
-F 1 "Mechanical_Mount" H 7500 5600 45  0001 L BNN
-F 2 "ICEE-Mechanical:mounting_panhead6_5mm" H 7700 5800 60  0001 C CNN
-F 3 "" H 7700 5800 60  0001 C CNN
-	1    7700 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDD #PWR037
 U 1 1 59BC0554
 P 7250 5900
@@ -1804,17 +1771,6 @@ F 1 "GNDD" H 7925 5750 50  0001 C CNN
 F 2 "" H 7925 5900 50  0000 C CNN
 F 3 "" H 7925 5900 50  0000 C CNN
 	1    7925 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical_Mount M4
-U 1 1 59BBA5DF
-P 7925 5800
-F 0 "M4" H 7825 5875 45  0000 L BNN
-F 1 "Mechanical_Mount" H 7725 5600 45  0001 L BNN
-F 2 "ICEE-Mechanical:mounting_panhead6_5mm" H 7925 5800 60  0001 C CNN
-F 3 "" H 7925 5800 60  0001 C CNN
-	1    7925 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1850,5 +1806,49 @@ F 4 "EL-17-215_BHC-AN1P2_3T" V 5500 1475 20  0000 C CNN "MPN"
 F 5 "304090061" H 5430 1375 20  0001 C CNN "SKU"
 	1    5400 1225
 	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical_Mount M1
+U 1 1 59C34B45
+P 7250 5800
+F 0 "M1" H 7150 5875 45  0000 L BNN
+F 1 "Mechanical_Mount" H 7300 5700 45  0001 L BNN
+F 2 "" H 7250 5800 60  0001 C CNN
+F 3 "" H 7250 5800 60  0001 C CNN
+	1    7250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_Mount M2
+U 1 1 59C35BEC
+P 7475 5800
+F 0 "M2" H 7375 5875 45  0000 L BNN
+F 1 "Mechanical_Mount" H 7525 5700 45  0001 L BNN
+F 2 "" H 7475 5800 60  0001 C CNN
+F 3 "" H 7475 5800 60  0001 C CNN
+	1    7475 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_Mount M3
+U 1 1 59C35CD4
+P 7700 5800
+F 0 "M3" H 7600 5875 45  0000 L BNN
+F 1 "Mechanical_Mount" H 7750 5700 45  0001 L BNN
+F 2 "" H 7700 5800 60  0001 C CNN
+F 3 "" H 7700 5800 60  0001 C CNN
+	1    7700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_Mount M4
+U 1 1 59C35DC5
+P 7925 5800
+F 0 "M4" H 7825 5875 45  0000 L BNN
+F 1 "Mechanical_Mount" H 7975 5700 45  0001 L BNN
+F 2 "" H 7925 5800 60  0001 C CNN
+F 3 "" H 7925 5800 60  0001 C CNN
+	1    7925 5800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
