@@ -16,4 +16,5 @@
   (lib (name ICEE-IC)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-IC.pretty)(options "")(descr ""))
   (lib (name ICEE-Mechanical)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-Mechanical.pretty)(options "")(descr ""))
   (lib (name ICEE-Diode)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-Diode.pretty)(options "")(descr ""))
+  (lib (name ICEE-Connector)(type KiCad)(uri ${KIPRJMOD}/../lib/ICEE_Kicad_Library/ICEE-Connector.pretty)(options "")(descr ""))
 )
