@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Users/Andy/Documents/Work/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
-    (date "9/24/2017 12:24:55 PM")
-    (tool "Eeschema 4.0.6")
+    (source /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
+    (date "Sun 24 Sep 2017 12:57:27 PM CDT")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "WIFI REMOTE")
@@ -666,17 +666,17 @@
       (tstamp 59C38035))
     (comp (ref J1)
       (value 2AA_Battery)
-      (footprint SeeedOPL-Connector-2016:H2-2.54)
+      (footprint ICEE-Connector:header_1x2)
       (fields
         (field (name MPN) BH-321-1A)
         (field (name SKU) 320180001))
-      (libsource (lib ICEE-Battery) (part 2AA_Battery))
+      (libsource (lib WifiRemote-cache) (part 2AA_Battery))
       (sheetpath (names /) (tstamps /))
-      (tstamp 59C7F15C)))
+      (tstamp 59C7F5DA)))
   (libparts
-    (libpart (lib ICEE-Battery) (part 2AA_Battery)
+    (libpart (lib WifiRemote-cache) (part 2AA_Battery)
       (footprints
-        (fp *H2-2.54*))
+        (fp *header_1x2*))
       (fields
         (field (name Reference) J)
         (field (name Value) 2AA_Battery)
@@ -1042,9 +1042,7 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical WifiRemote-cache)
-      (uri C:\Users\Andy\Documents\Work\ICEE\WiFiRemote-HW\prj\WifiRemote-cache.lib))
-    (library (logical ICEE-Battery)
-      (uri C:\Users\Andy\Documents\Work\ICEE\WiFiRemote-HW\lib\ICEE_Kicad_Library\ICEE-Battery.lib)))
+      (uri /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote-cache.lib)))
   (nets
     (net (code 1) (name "Net-(Q1-Pad3)")
       (node (ref Q1) (pin 3))
