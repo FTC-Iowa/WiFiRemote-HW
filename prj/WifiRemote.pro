@@ -1,4 +1,4 @@
-update=Thu 14 Sep 2017 09:08:27 PM CDT
+update=9/24/2017 12:17:15 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -90,3 +90,4 @@ LibName48=ICEE-IC
 LibName49=ICEE-Regulator
 LibName50=ICEE-Diode
 LibName51=ICEE-Mechanical
+LibName52=ICEE-Battery
