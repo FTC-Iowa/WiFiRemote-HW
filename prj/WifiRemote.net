@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Users/Andy/Documents/Work/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
-    (date "9/24/2017 1:39:54 PM")
-    (tool "Eeschema 4.0.6")
+    (source /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
+    (date "Sun 24 Sep 2017 01:46:19 PM CDT")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "WIFI REMOTE")
@@ -621,6 +621,7 @@
       (tstamp 59C7F5DA))
     (comp (ref D7)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -629,6 +630,7 @@
       (tstamp 59C8DC29))
     (comp (ref D8)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -637,6 +639,7 @@
       (tstamp 59C8E639))
     (comp (ref D9)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -645,6 +648,7 @@
       (tstamp 59C8E959))
     (comp (ref D11)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -653,6 +657,7 @@
       (tstamp 59C8ECBC))
     (comp (ref D6)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -661,6 +666,7 @@
       (tstamp 59C8EFD1))
     (comp (ref D5)
       (value SMD-DIODE-SCHOTTKY-20V-1A_SOD-123_)
+      (footprint SeeedOPL-Diode-2016:SOD-123)
       (fields
         (field (name MPN) B5819W)
         (field (name SKU) 304020034))
@@ -1025,7 +1031,7 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical WifiRemote-cache)
-      (uri C:\Users\Andy\Documents\Work\ICEE\WiFiRemote-HW\prj\WifiRemote-cache.lib)))
+      (uri /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote-cache.lib)))
   (nets
     (net (code 1) (name "Net-(Q1-Pad3)")
       (node (ref SW1) (pin COM))
