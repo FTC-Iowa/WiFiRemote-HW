@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.3
 #
 # 2AA_Battery
 #
-DEF 2AA_Battery J 0 40 Y Y 1 L N
+DEF 2AA_Battery J 0 40 Y Y 1 F N
 F0 "J" -250 250 45 H V L BNN
 F1 "2AA_Battery" 50 250 45 H V L BNN
 F2 "" 0 0 60 H I C CNN
@@ -11,7 +11,7 @@ F3 "" 0 0 60 H I C CNN
 F4 "BH-321-1A" 30 150 20 H I C CNN "MPN"
 F5 "320180001" 30 150 20 H I C CNN "SKU"
 $FPLIST
- *H2-2.54*
+ *header_1x2*
 $ENDFPLIST
 DRAW
 P 2 1 0 0 -100 -200 -100 200 N
