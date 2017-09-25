@@ -13,6 +13,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "Wifi Remote Prototype")
+    (date 2017-09-24)
+    (rev 1.0)
+    (company ICEE)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -233,6 +240,7 @@
     (at 62 75.5)
     (tags ESP)
     (path /59B5DE10)
+    (attr smd)
     (fp_text reference U1 (at -1.1923 0.8908) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1453,10 +1461,10 @@
       (net 41 /SW4))
   )
 
-  (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C7E18B) (tstamp 59C1DFE2)
+  (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C85D4E) (tstamp 59C1DFE2)
     (at 55 112)
     (path /59C34B45)
-    (fp_text reference M1 (at -4.05384 3.94208) (layer F.SilkS)
+    (fp_text reference M1 (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1469,10 +1477,10 @@
       (net 4 GNDD) (zone_connect 2))
   )
 
-  (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C7E193) (tstamp 59C1DFE6)
+  (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C85D40) (tstamp 59C1DFE6)
     (at 85 112)
     (path /59C35BEC)
-    (fp_text reference M2 (at 3.429 4.445) (layer F.SilkS)
+    (fp_text reference M2 (at 0 -5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1488,7 +1496,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C7E184) (tstamp 59C1DFEA)
     (at 55 142)
     (path /59C35CD4)
-    (fp_text reference M3 (at -3.71348 4.191) (layer F.SilkS)
+    (fp_text reference M3 (at 0 5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -1504,7 +1512,7 @@
   (module ICEE-Mechanical:mounting_panhead6_5mm locked (layer F.Cu) (tedit 59C7E19A) (tstamp 59C1DFEE)
     (at 85 142)
     (path /59C35DC5)
-    (fp_text reference M4 (at 3.429 4.318) (layer F.SilkS)
+    (fp_text reference M4 (at 0 5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mechanical_Mount (at 0 -6.477) (layer F.Fab) hide
@@ -2149,6 +2157,7 @@
 
   (module ICEE-Logos:FTC_Logo_Outline_BW_Large (layer B.Cu) (tedit 0) (tstamp 59CD3CF9)
     (at 69.1 110.6 270)
+    (attr smd)
     (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -2486,6 +2495,7 @@
 
   (module ICEE-Logos:FTC_Logo_Outline_BW_0R5IN (layer F.Cu) (tedit 0) (tstamp 59C9E11B)
     (at 84.8 78.7)
+    (attr smd)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
