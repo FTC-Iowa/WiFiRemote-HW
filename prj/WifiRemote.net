@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
-    (date "Sun 10 Dec 2017 03:16:40 PM CST")
-    (tool "Eeschema 4.0.2+dfsg1-stable")
+    (source C:/Users/Andy/Documents/Work/Connex/WiFiRemote-HW/prj/WifiRemote.sch)
+    (date "12/10/2017 3:57:27 PM")
+    (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "WIFI REMOTE")
@@ -192,7 +192,7 @@
       (tstamp 59B39145))
     (comp (ref L1)
       (value SMD-Inductor-4.7uH-20%-L0420)
-      (footprint SeeedOPL-Inductor-2016:L0805)
+      (footprint ICEE-Inductor:ICEE_Inductor_SPD3D16-4R7M)
       (fields
         (field (name MPN) SPD3D16-4R7M)
         (field (name SKU) 303010015)
@@ -665,7 +665,7 @@
         (field (name MPN) RC0603FR-07330RL)
         (field (name SKU) 301010300)
         (field (name RESISTANCE) 330R))
-      (libsource (lib SeeedOPL-Resistor-2016) (part SMD-RES-330R-1%-1_10W_0603_))
+      (libsource (lib WifiRemote-cache) (part SMD-RES-330R-1%-1_10W_0603_))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A2DB34B))
     (comp (ref R6)
@@ -676,7 +676,7 @@
         (field (name MPN) RC0603FR-07330RL)
         (field (name SKU) 301010300)
         (field (name RESISTANCE) 330R))
-      (libsource (lib SeeedOPL-Resistor-2016) (part SMD-RES-330R-1%-1_10W_0603_))
+      (libsource (lib WifiRemote-cache) (part SMD-RES-330R-1%-1_10W_0603_))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A2DBEF2))
     (comp (ref C10)
@@ -1035,7 +1035,7 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib SeeedOPL-Resistor-2016) (part SMD-RES-330R-1%-1_10W_0603_)
+    (libpart (lib WifiRemote-cache) (part SMD-RES-330R-1%-1_10W_0603_)
       (footprints
         (fp *R0603*))
       (fields
@@ -1059,9 +1059,7 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical WifiRemote-cache)
-      (uri /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote-cache.lib))
-    (library (logical SeeedOPL-Resistor-2016)
-      (uri "/home/birdman/Documents/projects/ICEE/WiFiRemote-HW/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib")))
+      (uri C:\Users\Andy\Documents\Work\Connex\WiFiRemote-HW\prj\WifiRemote-cache.lib)))
   (nets
     (net (code 1) (name GPIO12)
       (node (ref D14) (pin 1))
