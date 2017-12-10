@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Users/Andy/Documents/Work/Connex/WiFiRemote-HW/prj/WifiRemote.sch)
-    (date "12/10/2017 3:57:27 PM")
-    (tool "Eeschema 4.0.6")
+    (source /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote.sch)
+    (date "Sun 10 Dec 2017 04:40:23 PM CST")
+    (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "WIFI REMOTE")
@@ -194,9 +194,10 @@
       (value SMD-Inductor-4.7uH-20%-L0420)
       (footprint ICEE-Inductor:ICEE_Inductor_SPD3D16-4R7M)
       (fields
+        (field (name PLACE) YES)
         (field (name MPN) SPD3D16-4R7M)
-        (field (name SKU) 303010015)
         (field (name SUPPLIER) CODACA)
+        (field (name SKU) 303010015)
         (field (name INDUCTANCE) 4.7UH))
       (libsource (lib WifiRemote-cache) (part SMD-Inductor-4.7uH-20%-L0420))
       (sheetpath (names /) (tstamps /))
@@ -512,7 +513,7 @@
       (tstamp 59C35DC5))
     (comp (ref D4)
       (value SMD-Diode-TVS-3.3VMW-15V-SOD-523)
-      (footprint ICEE-Diode:SOD-523)
+      (footprint ICEE-Diode:SOD-523_IMPROVED)
       (fields
         (field (name MPN) CJ;CESD3V3D5)
         (field (name SKU) 304060054)
@@ -523,7 +524,7 @@
       (tstamp 59C34CB4))
     (comp (ref D10)
       (value SMD-Diode-TVS-3.3VMW-15V-SOD-523)
-      (footprint ICEE-Diode:SOD-523)
+      (footprint ICEE-Diode:SOD-523_IMPROVED)
       (fields
         (field (name MPN) CJ;CESD3V3D5)
         (field (name SKU) 304060054)
@@ -534,7 +535,7 @@
       (tstamp 59C35F11))
     (comp (ref D12)
       (value SMD-Diode-TVS-3.3VMW-15V-SOD-523)
-      (footprint ICEE-Diode:SOD-523)
+      (footprint ICEE-Diode:SOD-523_IMPROVED)
       (fields
         (field (name PLACE) YES)
         (field (name MPN) CJ;CESD3V3D5)
@@ -546,7 +547,7 @@
       (tstamp 59C36ECC))
     (comp (ref D13)
       (value SMD-Diode-TVS-3.3VMW-15V-SOD-523)
-      (footprint ICEE-Diode:SOD-523)
+      (footprint ICEE-Diode:SOD-523_IMPROVED)
       (fields
         (field (name PLACE) YES)
         (field (name MPN) CJ;CESD3V3D5)
@@ -558,7 +559,7 @@
       (tstamp 59C37B89))
     (comp (ref D14)
       (value SMD-Diode-TVS-3.3VMW-15V-SOD-523)
-      (footprint ICEE-Diode:SOD-523)
+      (footprint ICEE-Diode:SOD-523_IMPROVED)
       (fields
         (field (name MPN) CJ;CESD3V3D5)
         (field (name SKU) 304060054)
@@ -1059,7 +1060,7 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical WifiRemote-cache)
-      (uri C:\Users\Andy\Documents\Work\Connex\WiFiRemote-HW\prj\WifiRemote-cache.lib)))
+      (uri /home/birdman/Documents/projects/ICEE/WiFiRemote-HW/prj/WifiRemote-cache.lib)))
   (nets
     (net (code 1) (name GPIO12)
       (node (ref D14) (pin 1))

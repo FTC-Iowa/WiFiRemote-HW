@@ -1,4 +1,4 @@
-(module SOD-523 (layer F.Cu) (tedit 5A2DB660)
+(module SOD-523_IMPROVED (layer F.Cu) (tedit 5A2DB660)
   (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
   (tags "Diode SOD523")
   (attr smd)
